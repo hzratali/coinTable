@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 5px 12px;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+td {
+  padding: 5px 12px;
+}
+
+.body-cell {
+  width: 300px;
+  min-height: 300px;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
